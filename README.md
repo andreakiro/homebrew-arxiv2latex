@@ -15,8 +15,13 @@ sh arxiv2latex.sh <arxiv-url-or-id>
 
 ## Brew
 
-```
+```shell
 brew tap andreakiro/arxiv2latex
 brew install arxiv2latex
 arxiv2latex <arxiv-url-or-id>
+```
+
+## shasum
+```shell
+shasum -a 256 homebrew-arxiv2latex-<tag>.tar.gz
 ```
