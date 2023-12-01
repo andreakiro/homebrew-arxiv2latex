@@ -12,3 +12,11 @@ You can use (versioned) arXiv abs, pdf or id:
 chmod +x arxiv2latex.sh
 sh arxiv2latex.sh <arxiv-url-or-id>
 ```
+
+## Brew
+
+```
+brew tap andreakiro/arxiv2latex-sh # tap
+brew install arxiv2latex # install
+arxiv2latex <arxiv-url-or-id> # use
+```
