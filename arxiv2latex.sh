@@ -15,7 +15,7 @@ else
     exit 1
 fi
 
-D="tmpdir-${ARXIV_ID}"
+D="${ARXIV_ID}"
 DOWNLOAD_URL="https://arxiv.org/e-print/$ARXIV_ID"
 
 mkdir -p $D
