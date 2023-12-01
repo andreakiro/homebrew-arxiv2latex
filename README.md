@@ -25,3 +25,7 @@ arxiv2latex <arxiv-url-or-id>
 ```shell
 shasum -a 256 homebrew-arxiv2latex-<tag>.tar.gz
 ```
+
+## Limitations
+
+arXiv stores only `.bbl` file so you won't find `.bib`
